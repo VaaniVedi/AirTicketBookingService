@@ -33,7 +33,7 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false,
       defaultValue:1
     },
-    totaCost: {
+    totalCost: {
       type: DataTypes.INTEGER,
       allowNull: false,
       defaultValue:0
